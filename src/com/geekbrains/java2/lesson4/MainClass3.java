@@ -18,6 +18,7 @@ class MyWindow3 extends JFrame {
         button = new JButton("Long-Named Button 4 (PAGE_END)");
         add(button, BorderLayout.PAGE_END);
         button = new JButton("5 (LINE_END)");
+        button.setPreferredSize(new Dimension(200, 100));
         add(button, BorderLayout.LINE_END);
         setVisible(true);
     }
@@ -25,6 +26,6 @@ class MyWindow3 extends JFrame {
 
 public class MainClass3 {
     public static void main(String[] args) {
-        new MyWindow4();
+        new MyWindow3();
     }
 }

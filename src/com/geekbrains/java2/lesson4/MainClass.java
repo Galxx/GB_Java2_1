@@ -5,7 +5,7 @@ import javax.swing.*;
 class MyWindow extends JFrame {
     public MyWindow() {
         setTitle("Test Window");
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         setBounds(300, 300, 400, 400);
         setVisible(true);
     }
@@ -13,6 +13,6 @@ class MyWindow extends JFrame {
 
 public class MainClass {
     public static void main(String[] args) {
-        new MyWindow4();
+        new MyWindow();
     }
 }
